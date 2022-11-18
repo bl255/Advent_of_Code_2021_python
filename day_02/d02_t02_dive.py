@@ -1,4 +1,4 @@
-input_1 = "test_input.txt"
+input_1 = "input_02.txt"
 
 position = [0, 0, 0]  # [forward, up_and_down, aim]
 dict_tr = {"down": 1, "up": -1, "forward": 0}
