@@ -11,10 +11,8 @@ for move in moves:
     if move[0] == 0:
         position[0] += move[1]
         position[1] += position[2] * move[1]
-    elif move[0] == -1:
-        position[2] -= move[1]
     else:
-        position[2] += move[1]
+        position[2] += move[1] * move[0]
 
 
 print(position[0] * position[1])
