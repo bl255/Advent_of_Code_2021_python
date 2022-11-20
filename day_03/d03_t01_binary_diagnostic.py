@@ -13,6 +13,3 @@ epsilon_str = gamma_str.translate(str.maketrans("01", "10"))
 # only 2 options, epsilon is reverse of gamma
 
 print(int(gamma_str, 2) * int(epsilon_str, 2))
-
-
-
