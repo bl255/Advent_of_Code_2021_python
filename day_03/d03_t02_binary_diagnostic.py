@@ -24,8 +24,3 @@ def repeat_rule_filter(input_2d_array, bool_rule):
 
 
 print(int(repeat_rule_filter(diagnostics, "org_rule"), 2) * int(repeat_rule_filter(diagnostics, "csr_rule"), 2))
-
-
-
-
-
